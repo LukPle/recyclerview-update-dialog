@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity implements EditDialog.EditDi
         recyclerView.setAdapter(adapter);
 
         adapter.setOnItemClickListener(new Adapter.OnItemClickListener() {
+
+            /**
+             * The Adapter calls an onItemClickListener that handles the click on an item.
+             * Clicking on the item view initializes the selectedListItem.
+             * @param item is the item of the RecyclerView list that was clicked on.
+             */
             @Override
             public void onItemClick(Item item) {
 
