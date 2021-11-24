@@ -18,7 +18,7 @@ import java.util.ArrayList;
  *
  * Layout File: activity_main.xml
  *
- * @author Lukas Plenk 
+ * @author Lukas Plenk
  */
 public class MainActivity extends AppCompatActivity implements EditDialog.EditDialogListener {
 
